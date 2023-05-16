@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    height: 700px;
+    margin-top: 40px;
+    border-radius: 15px;
+
+}
+
+.card-img-top {
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    margin: 30px 50px;
+    border-radius: 10px;
+}
