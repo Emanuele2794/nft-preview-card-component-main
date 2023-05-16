@@ -1,3 +1,5 @@
+/* Stile Struttura Generale */
+
 html {
     margin: 0;
 }
@@ -9,7 +11,10 @@ body {
     align-items: center;
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
+    font-size: 18px;
 }
+
+/* Stile Card */
 
 .card {
     background-color: hsl(216, 50%, 16%);
@@ -24,6 +29,34 @@ body {
     max-width: 300px;
     max-height: 300px;
     position: relative;
-    margin: 30px 50px;
+    margin: 30px 50px 20px;
     border-radius: 10px;
+}
+
+.card-body {
+    position: relative;
+    margin-left: 50px;
+}
+
+.card-title {    
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    max-width: 300px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.price-box {
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    color: hsl(178, 100%, 50%);
+    font-size: 16px;
 }
