@@ -12,6 +12,7 @@ body {
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
     font-size: 18px;
+    color: hsl(215, 51%, 70%);
 }
 
 /* Stile Card */
@@ -53,10 +54,25 @@ body {
 }
 
 .price-box {
+    max-width: 300px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .price {
     color: hsl(178, 100%, 50%);
     font-size: 16px;
+    font-weight: 400;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+span {
+    margin-bottom: 0;
+    
 }
