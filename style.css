@@ -1,0 +1,100 @@
+/* Stile Struttura Generale */
+
+html {
+    margin: 0;
+}
+
+body {
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+/* Stile Card */
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    height: 600px;
+    margin-top: 40px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.card-img-top {
+    max-width: 300px;
+    max-height: 300px;
+    position: relative;
+    margin: 30px 50px 20px;
+    border-radius: 10px;
+}
+
+.card-body {
+    position: relative;
+    margin-left: 50px;
+}
+
+.card-title {    
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    max-width: 300px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.price-box {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price {
+    color: hsl(178, 100%, 50%);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 100%;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.creation {
+    position: relative;
+    margin-left: 100px;
+    bottom: 50px;
+}
+
+.creator-name {
+    color: white;
+}
+
+span {
+    margin-bottom: 0;
+    
+}
+
+hr {
+    max-width: 300px;
+    position: relative;
+    margin-right: 50px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
